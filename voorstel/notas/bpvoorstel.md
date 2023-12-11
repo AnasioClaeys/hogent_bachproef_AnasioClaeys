@@ -10,6 +10,8 @@
 
 - Hoe kan gekozen worden voor de beste spraakherkenningstechnologie voor een specifieke toepassing: vergelijkende studie en proof-of-concept
 
+- Wat zijn de mogelijkheden en beperkingen van het integreren van spraaktechnologie, met aandacht voor embedded spraakmodellen in uitdagende omgevingsfactoren: een vergelijkende studie en proof-of-concept.
+
 # Hoe nauwkeurigheid meten?
 
 - word error rate (WER) score
