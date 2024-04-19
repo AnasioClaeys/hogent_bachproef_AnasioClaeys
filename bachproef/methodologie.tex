@@ -26,5 +26,50 @@
 %% Maak voor elke fase (behalve het literatuuronderzoek) een NIEUW HOOFDSTUK aan
 %% en geef het een gepaste titel.
 
-\lipsum[21-25]
+%% \lipsum[21-25]
 
+Nu we een helder inzicht hebben verkregen in het onderzoeksdomein door de literatuurstudie, is het tijd om ons te richten op de methodologie. In dit hoofdstuk bieden we een gedetailleerd overzicht van de verschillende fasen van het onderzoek. Voor elke fase zullen we de specifieke doelstellingen uitgebreid toelichten.
+
+\section{Requirements-analyse}
+Alvorens de spraakmodellen kunnen geselecteerd worden zodat deze kunnen vergeleken worden met elkaar, is het noodzakelijk om eerst de requirements vast te leggen. De requirements kunnen worden onderverdeeld volgens het MoSCoW-principe. Hierbij worden de requirements ingedeeld in vier categorieën: Must have, Should have, Could have en Won't have. Hierbij zullen de requirements worden vastgelegd die absoluut noodzakelijk zijn en een meerwaarde bieden voor delaware. Er zijn in de requirements-analyse geen won't have requirements vastgelegd, doordat elke extra feature in een spraakmodel een meerwaarde kan bieden voor delaware.
+
+\subsection{Must have}
+
+\begin{itemize}
+  \item Het spraakmodel moet offline en on-device kunnen werken.
+  \item Het spraakmodel moet in staat zijn om de spraak van de gebruiker te herkennen en om te zetten naar tekst.
+  \item Het spraakmodel moet implementeerbaar zijn in een mobiele applicatie.
+  \item Het spraakmodel moet kunnen werken in een lawaaierige omgeving.
+  \item Het spraakmodel moet de taal Engels ondersteunen.
+\end{itemize}
+
+\subsection{Should have}
+
+\begin{itemize}
+  \item Het spraakmodel moet kunnen werken in een stille omgeving.
+  \item Het spraakmodel moet voldoende performant zijn om real-time spraakherkenning te kunnen uitvoeren.
+  \item Het spraakmodel moet de taal Nederlands ondersteunen.
+  \item Het spraakmodel moet kunnen omgaan met verschillende accenten en dialecten.
+  \item Het spraakmodel moet de taal Frans ondersteunen.
+\end{itemize}
+
+\subsection{Could have}
+
+\begin{itemize}
+  \item Het spraakmodel moet de spreker kunnen identificeren.
+  \item Het spraakmodel ondersteund andere talen dan Engels, Nederlands en Frans.
+  \item Het spraakmodel kan worden getraind op maat van de gebruiker.
+  \item Het spraakmodel kan emoties herkennen in de stem van de gebruiker.
+\end{itemize}
+
+\section{Selectie van spraakmodellen}
+In deze fase zal er een long-list opgesteld worden van spraakmodellen die eventueel in aanmerking komen voor het onderzoek. Vervolgens zullen we deze long-list inkorten tot een short-list aan de hand van de requirements-analyse. Het is de bedoeling dat de spraakmodellen op de short-list voldoen aan de must have requirements en een duidelijke meerwaarde kunnen bieden voor delaware.
+
+\section{Selectie van spraakdata}
+Voordat effectief kan worden overgegaan tot de vergelijkende studie, is het noodzakelijk om spraakdata te verzamelen. Deze spraakdata zullen gebruikt worden om de spraakmodellen te evalueren op basis van verschillende criteria. Het is heel belangrijk om de spraakdata zorgvuldig te selecteren zodat deze representatief zijn voor dit onderzoek. Er zullen drie talen worden getest, namelijk Engels, Frans en Nederlands. Voor elk van deze talen zullen er verschillende soorten spraakdata worden verzameld, waaronder verschillende accenten en dialecten. De spraakdata zullen zowel luide als stille omgevingsgeluiden bevatten zodat de spraakmodellen in beide omstandigheden kunnen worden getest.
+
+\section{Vergelijkende studie}
+In deze fase worden alle spraakmodellen op de short-list met elkaar vergeleken. Hierbij zullen de spraakmodellen geëvalueerd worden op basis van verschillende criteria. De spraakmodellen zullen worden geëvalueerd met behulp van een divers scala aan spraakgegevens, waaronder verschillende accenten, dialecten, en talen. De evaluatie omvat het testen van de modellen in zowel stille als rumoerige omstandigheden. Vervolgens zullen we de resultaten analyseren en vergelijken met elkaar. Op basis van deze analyse zal er dan uiteindelijk één spraakmodel geselecteerd worden die het beste voldoet aan de requirements van delaware. Deze selectie zal gebeuren in samenspraak met delaware. Met het geselecteerde spraakmodel zal later een proof of concept uitgewerkt worden.
+
+\section{Proof-of-Concept}
+In deze fase zal er een Proof-of-Concept (PoC) uitgewerkt worden met het geselecteerde spraakmodel. Hierbij zal er een takenapplicatie ontwikkeld worden waarbij de gebruiker taken kan toevoegen, verwijderen en updaten door middel van spraakcommando's. De takenapplicatie zal ontwikkeld worden voor Android smartphones en zal volledig offline en on-device werken. Uit de PoC kan er een conclusie getrokken worden over de performantie, de nauwkeurigheid de snelheid van het spraakmodel. Tevens zullen ook de mogelijkheden en beperkingen van het spraakmodel in kaart gebracht worden.
